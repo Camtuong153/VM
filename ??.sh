@@ -7,8 +7,8 @@ sleep 1
 echo -e "\e[1;31m hello!!\e[0m"
 sleep 1
 
-for i in {1..100000}; do 
-    echo -ne "\e[1;37m. install [${i}%] pack\e[0m\r"
+for i in {1..1000}; do 
+    echo -ne "\e[1;37m. install [${i}] pack\e[0m\r"
     sleep 0.01
 done
 echo -e "\n"
