@@ -1,0 +1,3 @@
+clear
+echo [hello world!! press clear]
+exit 
