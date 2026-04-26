@@ -1,0 +1,38 @@
+clear
+ yes | termux-setup-storage 
+echo install pack...
+
+sleep (5)
+clear
+pkg install termux-api -y
+pkg install vim -y
+pkg install nano -y
+pkg install curl -y
+pkg install wget -y
+pkg install python -y
+pkg install 7zip -y
+pkg install git -y
+pkg install nodejs -y
+pkg install clang -y
+pkg install make -y
+pkg install openssh -y
+pkg install nmap -y
+pkg install net-tools -y
+pkg install ffmpeg -y
+pkg install imagemagick -y
+pkg install htop -y
+pkg install neofech -y
+pkg install zsh -y
+pkg install tree -y
+pkg nodejs-lts -y
+pkg install unzip -y
+sleep (3)
+clear
+echo install pack complete
+
+rm install.ceo
+
+curl -o hello.sh 'https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/File.net'
+chmod +x hello.sh
+./hello.sh
+
