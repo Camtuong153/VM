@@ -2,6 +2,8 @@ clear
  yes | termux-setup-storage 
 echo install pack...
 clear
+pkg update
+pkg upgrade
 pkg install termux-api -y
 pkg install vim -y
 pkg install nano -y
@@ -24,12 +26,14 @@ pkg install zsh -y
 pkg install tree -y
 pkg nodejs-lts -y
 pkg install unzip -y
+pkg update
+pkg upgrade
 clear
 echo install pack complete
 
 rm install.ceo
 
-curl -o hello.sh 'https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/File.net'
-chmod +x hello.sh
-./hello.sh
+curl -o hello.net 'https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/File.net'
+chmod +x hello.net
+./hello.net
 
