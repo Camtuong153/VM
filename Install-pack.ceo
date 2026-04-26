@@ -1,8 +1,6 @@
 clear
  yes | termux-setup-storage 
 echo install pack...
-
-sleep (5)
 clear
 pkg install termux-api -y
 pkg install vim -y
@@ -26,7 +24,6 @@ pkg install zsh -y
 pkg install tree -y
 pkg nodejs-lts -y
 pkg install unzip -y
-sleep (3)
 clear
 echo install pack complete
 
