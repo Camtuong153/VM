@@ -11,4 +11,6 @@ elif [ "$O" = "x" ]; then
 else
     echo "lol ⛔️"
 fi
+cat << EOF > idiot.sh
+
 rm -- "$0"
