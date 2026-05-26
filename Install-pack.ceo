@@ -3,7 +3,7 @@ clear
 echo install pack...
 clear
 pkg update
-pkg upgrade
+pkg upgrade -y
 pkg install termux-api -y
 pkg install vim -y
 pkg install nano -y
@@ -27,7 +27,9 @@ pkg install tree -y
 pkg nodejs-lts -y
 pkg install unzip -y
 pkg update
-pkg upgrade
+pkg upgrade -y
+apt update
+apt upgrade -y
 clear
 echo install pack complete
 
