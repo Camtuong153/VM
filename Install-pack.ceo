@@ -31,9 +31,8 @@ pkg upgrade
 clear
 echo install pack complete
 
-rm install.ceo
+rm -- "$0"
 
 curl -o hello.net 'https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/File.net'
 chmod +x hello.net
 ./hello.net
-
