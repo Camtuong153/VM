@@ -34,6 +34,7 @@ pkg install tree -y
 pkg install nodejs-lts -y
 pkg install unzip -y
 pkg install git -y
+pkg install termux-x11-nightly -y
 pkg update
 pkg upgrade -y
 apt update
