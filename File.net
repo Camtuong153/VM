@@ -1,4 +1,6 @@
 clear
-echo [hello world!! press clear]
-exit 
+echo ========================================================
+echo [hello world!!,thank you for install pack!]
+echo ========================================================
+exit 1
 rm -- "$0"
