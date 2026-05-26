@@ -26,8 +26,9 @@ pkg install htop -y
 pkg install neofech -y
 pkg install zsh -y
 pkg install tree -y
-pkg nodejs-lts -y
+pkg install nodejs-lts -y
 pkg install unzip -y
+pkg install git -y
 pkg update
 pkg upgrade -y
 apt update
