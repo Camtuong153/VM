@@ -1,5 +1,10 @@
 clear
- yes | termux-setup-storage 
+echo ========================================================
+echo "              auto install pack for termux!"
+echo ========================================================
+sleep 2
+clear
+yes | termux-setup-storage 
 echo install pack...
 clear
 pkg update
