@@ -2,7 +2,7 @@
 clear
 echo -e "\e[1;31m not OPEN file!!!\e[0m"
 sleep 1
-echo -e "\e[1;31m you not press..\e[0m"
+echo -e "\e[1;31m you don't not press any key..\e[0m"
 sleep 1
 echo -e "\e[1;31m hello!!\e[0m"
 sleep 1
