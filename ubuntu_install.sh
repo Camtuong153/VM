@@ -13,3 +13,4 @@ sleep 2
 clear
 echo next you paste code: 
 proot-distro login ubuntu
+rm -- "$0"
