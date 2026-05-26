@@ -3,7 +3,8 @@ echo ========================================================
 echo [hello world!!,thank you for install pack!]
 echo ========================================================
 mkdir -p ~/info
-cat << EOF > info.txt
+
+cat << EOF > ~/info/info.txt
 hello user
 This is the code for you. 
 This code is used to download Ubuntu XFCE. 
