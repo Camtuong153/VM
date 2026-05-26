@@ -7,7 +7,7 @@ cat << EOF > info.txt
 hello user
 This is the code for you. 
 This code is used to download Ubuntu XFCE. 
-wire code: 
+wire code: curl -O https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/ubuntu_install.sh ; chmod +x ubuntu_install.sh
 EOF
 exit 1
 rm -- "$0"
