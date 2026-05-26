@@ -6,7 +6,6 @@ sleep 2
 clear
 yes | termux-setup-storage 
 echo install pack...
-clear
 pkg update
 pkg upgrade -y
 pkg install x11-repo -y
