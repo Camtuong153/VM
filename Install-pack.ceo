@@ -4,6 +4,8 @@ echo install pack...
 clear
 pkg update
 pkg upgrade -y
+pkg install x11-repo -y
+pkg install root-repo -y
 pkg install termux-api -y
 pkg install vim -y
 pkg install nano -y
