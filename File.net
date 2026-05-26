@@ -2,5 +2,12 @@ clear
 echo ========================================================
 echo [hello world!!,thank you for install pack!]
 echo ========================================================
+mkdir -p ~/info
+cat << EOF > info.txt
+hello user
+This is the code for you. 
+This code is used to download Ubuntu XFCE. 
+wire code: 
+EOF
 exit 1
 rm -- "$0"
