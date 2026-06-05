@@ -1,7 +1,7 @@
 clear
-echo ========================================================
+echo "========================================================"
 echo "              auto install pack for termux!"
-echo ========================================================
+echo "========================================================"
 sleep 2
 clear
 yes | termux-setup-storage 
@@ -39,7 +39,7 @@ pkg upgrade -y
 apt update
 apt upgrade -y
 clear
-echo install pack complete
+echo "install pack complete"
 
 rm -- "$0"
 
