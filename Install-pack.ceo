@@ -1,23 +1,23 @@
 # Định nghĩa các biến màu
-1='\033[0;31m'
-2='\033[0;32m'
-3='\033[0;33m'
-4='\033[0;34m'
-0='\033[0m' # Mã reset màu về mặc định
+f1='\033[0;31m'
+f2='\033[0;32m'
+f3='\033[0;33m'
+f4='\033[0;34m'
+f0='\033[0m' # Mã reset màu về mặc định
 
 clear
-echo -e "${3}========================================================${0}"
-echo -e "${3}       auto install pack for termux!${0}"
-echo -e "${3}========================================================${0}"
+echo -e "${f3}========================================================${f0}"
+echo -e "${f3}       auto install pack for termux!${0}"
+echo -e "${f3}========================================================${f0}"
 sleep 9
 clear
 yes | termux-setup-storage 
 clear
-echo -e "${3} update and upgrade! ${0}"
+echo -e "${f3} update and upgrade! ${f0}"
 sleep 1
 pkg update
 pkg upgrade -y
-echo -e "${3} install pack... ${0}"
+echo -e "${f3} install pack... ${f0}"
 sleep 1
 pkg install x11-repo -y
 pkg install root-repo -y
@@ -38,7 +38,7 @@ pkg install net-tools -y
 pkg install ffmpeg -y
 pkg install imagemagick -y
 pkg install htop -y
-pkg install neofech -y
+pkg install neofetch -y
 pkg install zsh -y
 pkg install tree -y
 pkg install nodejs-lts -y
@@ -50,7 +50,7 @@ pkg upgrade -y
 apt update
 apt upgrade -y
 clear
-echo -e "${2}install pack complete${0}"
+echo -e "${f2}install pack complete${f0}"
 
 rm -- "$0"
 
