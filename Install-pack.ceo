@@ -7,15 +7,18 @@
 
 clear
 echo -e "${3}========================================================${0}"
-echo -e "${3}       auto install pack for termux!${3}"
+echo -e "${3}       auto install pack for termux!${0}"
 echo -e "${3}========================================================${0}"
-sleep 2
+sleep 9
 clear
 yes | termux-setup-storage 
 clear
-echo -e "${3}install pack...${0}"
+echo -e "${3} update and upgrade! ${0}"
+sleep 1
 pkg update
 pkg upgrade -y
+echo -e "${3} install pack... ${0}"
+sleep 1
 pkg install x11-repo -y
 pkg install root-repo -y
 pkg install termux-api -y
