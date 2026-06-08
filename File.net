@@ -1,7 +1,13 @@
+1='\033[0;31m'
+2='\033[0;32m'
+3='\033[0;33m'
+4='\033[0;34m'
+0='\033[0m' # Mã reset màu về mặc định
+
 clear
-echo ========================================================
-echo [hello world!!,thank you for install pack!]
-echo ========================================================
+echo "${1}========================================================${0}"
+echo "${2}[hello world!!,thank you for install pack!]${0}"
+echo "${3}========================================================${0}
 mkdir -p ~/info
 
 cat << EOF > ~/info/info.txt
@@ -9,5 +15,6 @@ hello user
 This is the code for you. 
 This code is used to download Ubuntu XFCE. 
 wire code: curl -O https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/ubuntu_install.sh ; chmod +x ubuntu_install.sh
+code is beta -1
 EOF
 rm -- "$0"
