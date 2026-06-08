@@ -7,7 +7,7 @@ f0='\033[0m' # Mã reset màu về mặc định
 
 clear
 echo -e "${f3}========================================================${f0}"
-echo -e "${f3}       auto install pack for termux!${0}"
+echo -e "${f3}       auto install pack for termux!${f0}"
 echo -e "${f3}========================================================${f0}"
 sleep 9
 clear
