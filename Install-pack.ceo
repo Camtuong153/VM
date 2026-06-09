@@ -61,6 +61,10 @@ pkg update
 pkg upgrade -y
 apt update
 apt upgrade -y
+pkg clear
+pkg autoclear
+apt remove
+apt autoremove
 clear
 echo -e "${f2}install pack complete!${f0}"
 echo -e "${f4}user press exit${f0}"
