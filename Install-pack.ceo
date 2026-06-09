@@ -25,7 +25,6 @@ pkg install root-repo -y
 pkg install termux-api -y
 pkg install vim -y
 pkg install nano -y
-pkg install curl -y
 pkg install wget -y
 pkg install python -y
 pkg install 7zip -y
