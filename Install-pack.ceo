@@ -1,21 +1,20 @@
-# Định nghĩa các biến màu
 f1='\033[0;31m'
 f2='\033[0;32m'
 f3='\033[0;33m'
 f4='\033[0;34m'
-f0='\033[0m' # Mã reset màu về mặc định
+f0='\033[0m' 
 
 clear
 echo -e "${f3}========================================================${f0}"
 echo -e "${f3}       auto install pack for termux!${f0}"
-echo -e "${f2}by:camtuong153.github       version:0.12-beta${f0}"
+echo -e "${f2}by:camtuong153.github       version:0.13-beta${f0}"
 echo -e "${f3}========================================================${f0}"
 sleep 10
-echo -e "${f2}attention:${f4}Please consider carefully before using this script!${f0}"
+echo -e "${f2}🚫attention:${f4}Please consider carefully before using this script!${f0}"
 sleep 10
 clear
-echo -e "${f1}                          warning!${f0}"
-echo -e "${f3}From the moment you install this script, you will be solely responsible for all consequences and anything that happens within this script. We will not be held responsible for any modifications or damage to this script. Press Ctrl+C to exit or wait 30 seconds!${f0}"
+echo -e "${f1}                         ⚠️warning!${f0}"
+echo -e "${f3}⛔️From the moment you install this script, you will be solely responsible for all consequences and anything that happens within this script. We will not be held responsible for any modifications or damage to this script⛔️. Press Ctrl+C to exit or wait 30 seconds!${f0}"
 sleep 30
 clear
 yes | termux-setup-storage 
@@ -68,7 +67,7 @@ apt autoremove
 clear
 echo -e "${f2}install pack complete!${f0}"
 echo -e "${f4}user press exit${f0}"
-termux-notification -t "Termux Setup" -c "install all tool done!" --sound
+termux-notification -t "script done!" -c "install all tool done!" --sound
 echo -e "\a"
 sleep 0.3
 echo -e "\a"
