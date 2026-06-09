@@ -23,6 +23,8 @@ r2='\033[0;32m'
 r3='\033[0;33m'
 r4='\033[0;34m'
 r0='\033[0m'
+
+clear
 echo -e "${r3}modpack auto update runing..${r0}"
 sleep 2
 pkg update ; pkg upgrade -y
