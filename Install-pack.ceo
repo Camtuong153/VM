@@ -49,6 +49,7 @@ pkg install termux-x11-nightly -y
 pkg install yt-dlp -y
 pkg install mpv -y
 pkg install speedtest-go -y
+pkg install proot-distro -y
 pkg update
 pkg upgrade -y
 apt update
