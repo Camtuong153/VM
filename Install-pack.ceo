@@ -17,6 +17,7 @@ echo -e "${f3} update and upgrade! ${f0}"
 sleep 2
 pkg update
 pkg upgrade -y
+clear
 echo -e "${f3} install pack... ${f0}"
 sleep 2
 pkg install x11-repo -y
