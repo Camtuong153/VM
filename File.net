@@ -8,8 +8,17 @@ clear
 echo -e "${r1}========================================================${r0}"
 echo -e "${r2}[hello world!!,thank you for install pack!]${r0}"
 echo -e "${r1}========================================================${r0}"
+echo -e "${r2}remove[file/app/apk]-press>('./uninstall.sh')${r0}"
 mkdir -p ~/info
-
+cat << EOF > uninstall.sh
+cat << EOF > ~/.Bashrc
+clear
+echo "startup done!"
+EOF
+rm -rf ~/info
+rm -- "$0"
+EOF
+chmod +x uninstall.sh
 cat << EOF > ~/info/info.txt
 hello user
 This is the code for you. 
