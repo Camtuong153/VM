@@ -56,6 +56,7 @@ pkg install yt-dlp -y
 pkg install mpv -y
 pkg install speedtest-go -y
 pkg install proot-distro -y
+proot-distro install ubuntu
 pkg update
 pkg upgrade -y
 apt update
