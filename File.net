@@ -13,7 +13,7 @@ mkdir -p ~/info
 cat << EOF > uninstall.sh
 rm -rf ~.bashrc
 rm -rf ~/info
-rm -- "$0"
+rm -rf uninstall.sh
 EOF
 chmod +x uninstall.sh
 cat << EOF > ~/info/info.txt
