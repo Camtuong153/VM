@@ -7,7 +7,7 @@ f0='\033[0m'
 clear
 echo -e "${f3}========================================================${f0}"
 echo -e "${f3}       auto install pack for termux!${f0}"
-echo -e "${f2}by:camtuong153.github       version:0.14-beta${f0}"
+echo -e "${f2}by:camtuong153.github       version:0.15-beta${f0}"
 echo -e "${f3}========================================================${f0}"
 sleep 10
 echo -e "${f2}🚫attention:${f4}Please consider carefully before using this script!${f0}"
