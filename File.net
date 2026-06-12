@@ -10,7 +10,7 @@ echo -e "${r2}[hello world!!,thank you for install pack!]${r0}"
 echo -e "${r1}========================================================${r0}"
 echo -e "${r2}remove[file/app/apk]-press>('./uninstall.sh')${r0}"
 mkdir -p ~/info
-curl -o uninstall.sh "" ; chmod +x uninstall.sh
+curl -o uninstall.sh "https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/unstall.sh" ; chmod +x uninstall.sh
 cat << EOF > ~/info/info.txt
 hello user
 This is the code for you. 
