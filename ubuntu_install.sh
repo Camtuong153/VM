@@ -12,4 +12,5 @@ curl -o setup.sh "https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/ma
 chmod +x setup.sh
 ./setup.sh
 echo ":p"
+rm -rf setup.sh
 rm -- "$0"
