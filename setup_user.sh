@@ -12,5 +12,5 @@ pkg install p7z -y
 pkg update ; pkg upgrade -y
 7z x -y /sdcard/VM/a.7z /sdcard/VM/
 rm -rf /sdcard/VM/a.7z
-echo lol > lol.docx
+echo lol > /sdcard/VM/lol.docx
 rm -- "$0"
