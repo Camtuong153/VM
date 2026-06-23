@@ -8,6 +8,8 @@ echo -e "${c2}====================================================${c0}"
 echo -e "${c3}       setup file!!${c0}"
 echo -e "${c2}====================================================${c0}"
 
-curl -o setup.sh ""
+curl -o setup.sh "https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/setup_user.sh"
+chmod +x setup.sh
+./setup.sh
 echo ":p"
 rm -- "$0"
