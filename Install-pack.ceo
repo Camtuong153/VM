@@ -7,7 +7,7 @@ f0='\033[0m'
 clear
 echo -e "${f3}========================================================${f0}"
 echo -e "${f3}       auto install pack for termux!${f0}"
-echo -e "${f2}by:camtuong153.github       version:0.15-beta${f0}"
+echo -e "${f2}by:camtuong153.github       version:0.16.0-beta${f0}"
 echo -e "${f3}========================================================${f0}"
 sleep 10
 echo -e "${f2}🚫attention:${f4}Please consider carefully before using this script!${f0}"
@@ -57,6 +57,7 @@ pkg install git -y
 pkg install termux-x11-nightly -y
 pkg install yt-dlp -y
 pkg install mpv -y
+pkg install pulseaudio -y
 pkg install speedtest-go -y
 pkg install proot-distro -y
 proot-distro install ubuntu
