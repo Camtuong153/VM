@@ -7,7 +7,7 @@ qemu-system-x86_64 -usb -device usb-tablet -cpu qemu64 -smp sockets=1,cores=1,th
 termux-open-url vnc://127.0.0.1:5902
 eof
 chmod +rwx ~/startxp.sh
-wget -O /sdcard/VM/a.7z https://download2288.mediafire.com/ql3x0f1yhcxg7FTlsdUJbu9eNBXePqQV62394F5KppyknYDvPzKdMiFF3sxQqLJlL9DJMYofGJRa0vOFG4Qp-HPNU0kCTIeazh_7u85K0JcuY3etMAqdgp6vO528PVmA4NOWIqTJ9Bsyh14sbuS08EPb2DmPaXeg4n2-MYikneKNPQ/xuv54r2pf1lkgup/Windows+XP+x64.7z
+wget -O /sdcard/VM/a.7z https://download2274.mediafire.com/8yd8ekhmghkgKDD1nU0TJh3yfgfScSD3xbeF0ASx15g1LWTK3QeTc7NXT4j6WBBGShU_YBY5MIolWKQAG245wNUpQfb7VjqWjHqN9aWnjI4uejB-N5hUNZb_hgYf7p0VEXP14P0FxREDXF2coyyZKLG03RcKW25MYYUQ6fX4VLBE6NI/xuv54r2pf1lkgup/Windows+XP+x64.7z
 pkg install p7zip -y
 pkg install qemu-system -y
 pkg install qemu-system-x86_64-headless -y
