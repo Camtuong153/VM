@@ -1,0 +1,2 @@
+rm -rf /sdcard/VM
+rm -rf ~/startxp.sh
