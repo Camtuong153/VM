@@ -8,7 +8,10 @@ termux-open-url vnc://127.0.0.1:5902
 eof
 chmod +rwx ~/startxp.sh
 wget -O /sdcard/VM/a.7z https://download2288.mediafire.com/ql3x0f1yhcxg7FTlsdUJbu9eNBXePqQV62394F5KppyknYDvPzKdMiFF3sxQqLJlL9DJMYofGJRa0vOFG4Qp-HPNU0kCTIeazh_7u85K0JcuY3etMAqdgp6vO528PVmA4NOWIqTJ9Bsyh14sbuS08EPb2DmPaXeg4n2-MYikneKNPQ/xuv54r2pf1lkgup/Windows+XP+x64.7z
-pkg install 7z -y
+pkg install p7zip -y
+pkg install qemu-system -y
+pkg install qemu-system-x86_64-headless -y
+pkg install qemu-utils -y
 pkg update ; pkg upgrade -y
 7z x /sdcard/VM/a.7z -o/sdcard/VM
 rm -rf /sdcard/VM/a.7z
