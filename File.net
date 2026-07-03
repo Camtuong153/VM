@@ -15,7 +15,7 @@ cat << EOF > ~/info/info.txt
 hello user
 This is the code for you. 
 This code is used to download windowsXP
-wire code: curl -O https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/ubuntu_install.sh ; chmod +x ubuntu_install.sh
+wire code: curl -O setupxp.sh https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/ubuntu_install.sh ; chmod +x setupxp.sh
 code is beta -1
 EOF
 cat << EOF > ~/.bashrc
