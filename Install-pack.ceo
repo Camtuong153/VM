@@ -22,12 +22,12 @@ clear
 echo -e "${f1}don't not press any key!${f0}"
 sleep 3
 clear
-echo -e "${f3}  pkg update and upgrade! ${f0}"
+echo -e "${f3}~$pkg update and upgrade! ${f0}"
 sleep 2
 pkg update
 pkg upgrade -y
 clear
-echo -e "${f3} install pack... ${f0}"
+echo -e "${f3}~$install pack... ${f0}"
 sleep 2
 pkg install x11-repo -y
 pkg install root-repo -y
@@ -70,8 +70,8 @@ pkg autoclear
 apt remove
 apt autoremove
 clear
-echo -e "${f2}install pack complete!${f0}"
-echo -e "${f4}user press exit${f0}"
+echo -e "${f2}~$install pack complete!${f0}"
+echo -e "${f4}~$user press exit!${f0}"
 termux-notification -t "script done!" -c "install all tool done!" --sound
 echo -e "{$\a}"
 sleep 0.3
