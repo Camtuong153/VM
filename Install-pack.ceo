@@ -21,7 +21,8 @@ yes | termux-setup-storage
 clear
 echo -e "${f1}don't not press any key! ${f0}"
 echo -e "${f2}for new user ,perss y and i ,press enter key!${f0}"
-sleep 3
+echo -e "${f1}for new user don't not press n key!${f0}"
+sleep 5
 clear
 echo -e "${f3}~$pkg update and upgrade! ${f0}"
 sleep 2
