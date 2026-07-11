@@ -74,7 +74,7 @@ apt remove
 apt autoremove
 clear
 echo -e "${f2}~$install pack complete!${f0}"
-echo -e "${f4}~$user press exit!${f0}"
+echo -e "${f4}~$user Click ctrl+c to exit!${f0}"
 termux-notification -t "script done!" -c "install all tool done!" --sound
 curl -o hello.net 'https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/File.net'
 chmod +x hello.net
