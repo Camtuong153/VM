@@ -7,7 +7,7 @@ f0='\033[0m'
 clear
 echo -e "${f3}==================================================${f0}"
 echo -e "${f3}        auto install pack for termux!${f0}"
-echo -e "${f2}by:camtuong153.github       version:0.16.0-beta${f0}"
+echo -e "${f2}by:camtuong153.github       version:0.17.1-beta${f0}"
 echo -e "${f3}==================================================${f0}"
 sleep 10
 echo -e "${f2}[🚫]attention:${f4}Please consider carefully before using this script!${f0}"
@@ -20,6 +20,9 @@ clear
 yes | termux-setup-storage 
 clear
 echo -e "${f1}don't not press any key! ${f0}"
+sleep 2
+echo -e "$This scenario will download quite a few different apps and packs to your device, and they can be several GB in size, so it will take a long time. Please wait for the notification on your device's notification bar. Also, note that if your device's battery level is [<30%; ≈10%], you should charge it because there is a risk of your device shutting down. Furthermore, you need to consider your device's storage; your device must have at least [>64GB] to be able to download these apps and packs!${f0}"
+sleep 2
 echo -e "${f2}for new user!${f0}"
 echo -e "${f4}Click I and Y If you have any questions${f0}"
 echo -e "${f4}Click Allow to grant permission for the working folders.${f0}"
@@ -75,7 +78,7 @@ apt autoremove
 clear
 echo -e "${f2}~$install pack complete!${f0}"
 echo -e "${f4}~$user Click ctrl+c to exit!${f0}"
-termux-notification -t "script done!" -c "install all tool done!" --sound
+termux-notification -t "script done!" -c "install all done!" --sound
 curl -o hello.net 'https://raw.githubusercontent.com/Camtuong153/VM/refs/heads/main/File.net'
 chmod +x hello.net
 ./hello.net
