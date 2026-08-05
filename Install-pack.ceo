@@ -21,7 +21,7 @@ yes | termux-setup-storage
 clear
 echo -e "${f1}don't not press any key! ${f0}"
 sleep 2
-echo -e "$This scenario will download quite a few different apps and packs to your device, and they can be several GB in size, so it will take a long time. Please wait for the notification on your device's notification bar. Also, note that if your device's battery level is [<30%; ≈10%], you should charge it because there is a risk of your device shutting down. Furthermore, you need to consider your device's storage; your device must have at least [>64GB] to be able to download these apps and packs!${f0}"
+echo -e "${f4}This scenario will download quite a few different apps and packs to your device, and they can be several GB in size, so it will take a long time. Please wait for the notification on your device's notification bar. Also, note that if your device's battery level is ${f2}[<30%; ≈10%],${f4} you should charge it because there is a risk of your device shutting down. Furthermore, you need to consider your device's storage; your device must have at least ${f2}[>64GB]${f4} to be able to download these apps and packs!${f0}"
 sleep 2
 echo -e "${f2}for new user!${f0}"
 echo -e "${f4}Click I and Y If you have any questions${f0}"
