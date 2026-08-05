@@ -35,7 +35,7 @@ yes | termux-setup-storage
 echo -e "${r2}done!${r0}"
 EOF
 rm -- "$0"
-termux-open-url "https://camtuong.github.io"
+termux-open-url "https://camtuong153.github.io"
 echo -e "${r2}shutdown-termuxing...${r0}"
 sleep 20
 clear
