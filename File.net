@@ -36,7 +36,7 @@ echo -e "${r2}done!${r0}"
 EOF
 rm -- "$0"
 wget -O /sdcard/download/x11desktop.apk https://github.com/termux/termux-x11/releases/download/nightly/termux-x11-universal-debug.apk
-termux-open-url "https://camtuong153.github.io"
+termux-open-url "https://camtuong153.github.io/welcome"
 echo -e "${r2}shutdown-termuxing...${r0}"
 sleep 20
 clear
